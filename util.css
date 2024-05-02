@@ -1,0 +1,22 @@
+
+section{
+    padding: 5% 10%;
+}
+.flex{
+    display: flex;   
+}
+
+.center{
+    text-align: center;
+}
+.ma{
+    margin: auto;
+}
+
+.h2{    
+    font-size: 1.8rem;
+}
+:root {
+    --color: #2c2c2c;
+    --red: #ee1c47;  
+  }

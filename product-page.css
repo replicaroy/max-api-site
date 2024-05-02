@@ -1,0 +1,98 @@
+body {
+  background-color: #f1f3f6;
+}
+.product-container {
+  height: 70vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  /* padding: 10px;   */
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+
+}
+.products {
+  background-color: white;
+  padding: 10px 100px;
+  width: 48%;
+  max-height: 500px;
+  min-height: 300px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.products img {
+  display: inline-block;
+  padding: 10px 50px;
+  width: 100%;
+  object-position: center;
+  min-height: 480px;
+  max-height: 480px;
+}
+.details {
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  gap: 80px;
+  text-align: left;
+  width: 45%;
+  padding: 20px 50px;
+  max-height: 500px;
+  min-height: 300px;
+
+  position: relative;
+  color: rgb(99, 98, 98);
+}
+.rating {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.product-desc > h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.product-description {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.btn-div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.details a {
+  width: 100%;
+  display: block;
+  width: 100%;
+  display: block;
+}
+
+.details button {
+  padding: 30px;
+  width: 100%;
+  display: block;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: #ff9f00;
+}
+
+.btn2 {
+  background-color: #fb641b;
+}
